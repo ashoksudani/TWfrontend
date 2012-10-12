@@ -11,6 +11,9 @@ Getting Started
 2. From the command line run; 
   $ source devenv 
 
+* Ubuntu users need to run this command before running the source command:
+	sudo apt-get install libxslt-dev libxml2-dev
+
 Daily Workflow
 --------------
 
