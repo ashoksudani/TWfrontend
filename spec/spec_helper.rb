@@ -1,3 +1,8 @@
+require 'simplecov'
+SimpleCov.start do
+  SimpleCov.minimum_coverage 80
+end
+
 require 'rubygems'
 require 'bundler/setup'
 Bundler.require(:default, :test)
